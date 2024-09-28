@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Matemasie&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>PetShop</title>
+  </head>
+  <body>
+    <header>
+      <section class="header">
+        <h1>PetCaring</h1>
+        <nav class="menu">
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#avaliacoes">Avaliações</a>
+            </li>
+            <li>
+              <a href="#servicos">Serviços</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="cadastro">Cadastre-se</button>
+      </section>
+    </header>
+    <main>
+      <div class="banner">
+        <img src="./image/capa.png" alt="Foto de Capa do Doguinho" />
+      </div>
+
+      <div class="bem-vindo">
+        <p>
+          Seja muito bem-vindo a PetCaring. Aqui seu Melhor Amigo é tratado como
+          um Rei!
+        </p>
+      </div>
+
+      <section class="descricao" id="home">
+        <img src="./image/img-esquerda.jpg" alt="pets" />
+        <div class="home">
+          <h3>Venha ser PetCaring</h3>
+          <p>O cuidado que seu pet precisa</p>
+          <select name="cidade" id="cidade">
+            <option value="selection">Selecione sua Cidade:</option>
+            <option value="cidadeA">Rio de Janeiro</option>
+            <option value="cidadeB">São Paulo</option>
+            <option value="cidadeC">Minas Gerais</option>
+            <option value="cidadeD">Espírito Santo</option>
+          </select>
+        </div>
+        <img src="./image/img-direita.jpg" alt="pets" />
+      </section>
+      <section class="pet-banho">
+        <figure>
+          <img src="./image/tosa-esquerda.jpeg" alt="pet em banho" />
+          <img src="./image/tosa-direita.jpeg" alt="pet em banho" />
+        </figure>
+      </section>
+      <section class="avaliacoes" id="avaliacoes">
+        <div class="coments">
+          <img src="./image/estrela.png" alt="estrela" />
+          <h6>5.0</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <h5>Felipe Mascena</h5>
+          <p>27/09/24</p>
+        </div>
+        <div class="coments">
+          <img src="./image/estrela.png" alt="estrela" />
+          <h6>5.0</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <h5>Felipe Mascena</h5>
+          <p>27/09/24</p>
+        </div>
+        <div class="coments">
+          <img src="./image/estrela.png" alt="estrela" />
+          <h6>5.0</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <h5>Felipe Mascena</h5>
+          <p>27/09/24</p>
+        </div>
+        <div class="coments">
+          <img src="./image/estrela.png" alt="estrela" />
+          <h6>5.0</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <h5>Felipe Mascena</h5>
+          <p>27/09/24</p>
+        </div>
+      </section>
+
+
+      <section id="servicos" class="servicos">
+        <div class="tosa">
+          <div class="tradicional">
+            <h6>Banho Tradicional</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. libero
+              error culpa corporis! Dolorem, cumque.
+            </p>
+            <span>R$ 0,00</span>
+          </div>
+          <img src="./image/banho-tradicional-1.jpeg" alt="banho tradicional" />
+        </div>
+        <div class="tosa">
+            <img src="./image/banho+hidratacao-2.jpg" alt="banho + hidratação intensa" />
+          <div class="tradicional">
+            <h6>Banho + Hidratação</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. libero
+              error culpa corporis! Dolorem, cumque.
+            </p>
+            <span>R$ 0,00</span>
+          </div>
+        </div>
+        <div class="tosa">
+          <div class="tradicional">
+            <h6>Tosa Higiênica</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. libero
+              error culpa corporis! Dolorem, cumque.
+            </p>
+            <span>R$ 0,00</span>
+          </div>
+          <img src="./image/tosa-higienica-3.jpg" alt="tosa higiênica" />
+        </div>
+        <div class="tosa">
+            <img src="./image/tosa-bebe-4.jpeg" alt="Tosa Bebê" />
+          <div class="tradicional">
+            <h6>Tosa Bebê</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. libero
+              error culpa corporis! Dolorem, cumque.
+            </p>
+            <span>R$ 0,00</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <section class="redes-sociais">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </section>
+
+        <section class="rodape">
+            <div>
+                <a href="#" target="_blank">Política de privacidade</a>
+                <a href="#" target="_blank">Termos e Condições</a>
+            </div>
+            <div class="sobre">
+                <p>© 2024 PetCaring Comercio e Participações S.A. | CNPJ: 00.000.000/0000-00</p>
+                <p>Rua João Batista Santanna, 215, Ribeirão Preto, SP | CEP 14022-320 BR</p>
+            </div>
+        </section>
+    </footer>
+  </body>
+</html>
